@@ -19,7 +19,7 @@ function spinBottle() {
         backgroundMusic.pause();
         backgroundMusic.currentTime = 0;
 
-        var names = ["Kamlesh", "Shubham", "Sakchhi", "Usha", "Aanchal"];
+        var names = ["Kamlesh", "Shubham", "Divya Soor", "T sai", "Yaman"];
         var randomIndex = Math.floor(Math.random() * names.length);
         var selectedPerson = names[randomIndex];
         resultElement.innerHTML = "The bottle points to: " + selectedPerson;
